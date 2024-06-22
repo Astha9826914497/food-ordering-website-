@@ -1,0 +1,21 @@
+.discount-offer{
+    position: absolute;
+    width:200px;
+    height: 35px;
+    left: 0px;
+    bottom: 250px;
+    background-color:var(--constant-pink);
+    color: var(--constant-white);
+    text-align: center;
+    text-wrap: wrap;
+    padding:5px 5px 5px 5px;
+    border-radius: 0px 8px 8px 0px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+

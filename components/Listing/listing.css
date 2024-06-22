@@ -1,0 +1,139 @@
+.listing{
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.background{
+position: absolute;
+width: 100%;
+height: 800px;
+left:0px;
+right:0px;
+top: 1290px;
+}
+
+.listing-main-container{
+background-color: var(--white-text);
+width:1536px;
+
+}
+
+.heading-listing{
+position:relative;
+margin-top: 480px;
+display: flex;
+justify-content: center;
+gap:30px;
+}
+
+.top{
+position: relative;
+width: 134px;
+height: 108px;
+font-family: "Poppins", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 108px;
+color: var(--plain-text);
+}
+
+.restaurant{
+position: relative;
+width: 395px;
+height: 108px;
+font-family: "Poppins", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 108px;
+background: var(--main-heading);;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.explore-more{
+position: relative;
+font-family: "Poppins", sans-serif;
+font-size:20px;
+color:var(--constant-orange);
+width: 300px;
+height: 51px;
+margin-left: 500px;;
+margin-top: 0px;
+margin-bottom:100px;
+border:2px solid var(--constant-pink);
+border-radius: 10px;
+text-transform:none;
+}
+.explore-more:hover{
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size:20px;
+  color:var(--constant-white);
+  width: 300px;
+  height: 51px;
+  margin-left: 500px;;
+  margin-top: 0px;
+  margin-bottom:100px;
+  background: var(--main-heading);
+  border-radius: 10px;
+  text-transform:none;
+}
+
+.explore-more-container{
+position: relative;
+margin-top: 100px;
+justify-content: center;
+padding-bottom: 100px;
+
+}
+
+.chain{
+position: relative;
+width: 215px;
+height: 108px;
+font-family: "Poppins", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 108px;
+color: var(--plain-text);
+}
+
+.vector-7{
+margin-top: 30px;
+position: relative;
+width: 400px;
+height: 169px;
+}
+
+.vector-8{
+position: relative;
+width: 350px;
+height: 87px;
+}
+
+.description1{
+position: absolute;
+width: 896px;
+height: 38px;
+left: calc(50% - 896px/2);
+top:1280px;
+font-family: "Poppins", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+text-align: center;
+text-transform: capitalize;
+color: var(--plain-text);
+opacity: 0.8;
+
+}
+
+.grid-width{
+  width:1536px;
+ 
+}

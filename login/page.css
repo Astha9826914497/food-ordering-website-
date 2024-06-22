@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='email'],
+input[type='username'],
+input[type='password'],
+input[type='text'] {
+    @apply block w-full my-2 rounded-xl mt-5 mb-5;
+    @apply  border p-2 border-gray-300 bg-gray-100 outline-pink-600;
+    border-radius:38px;
+    
+}
+
+input[type='email'],
+input[type='username'],
+input[type='password'],
+input[type='text'] ::active{
+    border: 1px solid #FF0072;
+
+}
+
+button{
+    @apply block w-full text-gray-700 font-semibold;
+    border-radius:38px;
+    @apply border border-gray-300 rounded-xl px-6 py-2;
+}
+
+button[type='submit'], .submit{
+    @apply border-0 bg-primary text-white;
+    border-radius:38px;
+    width:460px;
+    font-family: "Poppins", sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    background: linear-gradient(95.72deg, #FF0072 3.48%, #FF7F47 125.31%);
+}
+
+/* Add this CSS to page.css */
+
+.login-background{
+    position:absolute;
+    z-index:-1;
+    width:100hv;
+    height:100hv;
+    left:0px;
+    right:0px;
+   
+}
+.section{
+position:absolute;
+top:80px;
+left:900px;
+width:500px;
+}
+
+.chef{
+    position: absolute;
+    width: 277px;
+    height: 277px;
+    left: 0px;
+    top: 454px;
+    }
+    
+    .text{
+    left: 283px;
+    top: 490px;
+    position: absolute;
+    width: 346px;
+    height: 186px;
+    
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 55px;
+    
+    background: linear-gradient(180deg, #FF0072 0%, #FF7F47 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+
+    .separator{
+       margin-left:20px;
+       margin-top:10px;
+       margin-bottom:10px;
+        } 
+
+
+        .login-text{
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 55px;
+            
+            background: linear-gradient(180deg, #FF0072 0%, #FF7F47 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+
+        }
+
+        .login-with-google{
+            border-radius:38px;
+        }
+        .google-icon{
+        top:30px;
+        }

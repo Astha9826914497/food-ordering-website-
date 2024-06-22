@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light-theme{
+--main-heading:linear-gradient(180deg, #FF0072 0%, #FF7F47 100%);
+--plain-text:rgb(29, 29, 29);
+--white-text:white;
+--card-background:#FAFAFA;
+--constant-white:#ffffff;
+--constant-pink:#ff0072;
+--constant-orange: #FF7F47;
+--footer-bgwhite:#f7f7f7;
+--transparent-bg:transparent;
+}
+
+.dark-theme{
+--main-heading:linear-gradient(180deg, #FF0072 0%, #FF7F47 100%);
+--plain-text:white;
+--white-text:rgb(29, 29, 29);
+--card-background:rgb(55, 55, 55);
+--constant-white:#ffffff;
+--constant-pink:#ff0072;
+--constant-orange: #FF7F47;
+--footer-bgwhite:rgb(29, 29, 29);
+--transparent-bg:rgb(29, 29, 29);
+  .background{
+  display: none;
+  }
+  .about_background{
+    display: none;
+  }
+}
+
+

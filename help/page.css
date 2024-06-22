@@ -1,0 +1,80 @@
+body{
+    overflow-x : hidden;
+    
+    }
+    
+    .help{
+    position: relative;
+    background-color: var(--white-text);
+    
+    }
+    
+    .heading-help{
+    position: relative;
+    margin-top: 140px;
+    padding-top: 40px;
+    margin-left: 60px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    letter-spacing: 0.03em;
+    background: var(--main-heading);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+    }
+    
+    .sub-heading-help{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 60px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: var(--plain-text);
+    }
+        
+    
+    .accordion{
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid var(--plain-text);
+    padding:30px 30px 30px 0px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--plain-text);
+    }
+    
+    .accordion_answer{
+    display: none;
+    }
+    
+    .container{
+    margin-top: 30px;
+    padding: 10px;
+    }
+    
+    .accordion:hover {
+    background: var(--main-heading);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    cursor: pointer;
+    }
+     
+    .accordion__answer {
+        font-size: 14px;
+        margin-top:30px;
+        display: none;
+    }
+     
+    .accordion.active .accordion__answer {
+        display: block;
+    }
+    

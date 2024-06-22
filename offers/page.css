@@ -1,0 +1,86 @@
+body{
+    overflow-x : hidden;
+    }
+    
+    .heading_offers{
+    position: relative;
+    left:50px;
+    margin-top:130px;
+    padding-top: 50px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-between;
+    width:fit-content;
+    gap: 10px;
+    }
+
+    .offers-main-container{
+    background-color: var(--white-text);
+    }
+    .Restaurants{
+     width: auto;
+     height: 63px;
+     left: 57px;
+     font-family: "Poppins", sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 28px;
+     line-height: 42px;
+     letter-spacing: 0.03em;
+     background:var(--main-heading);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+    }
+    .With-great{
+    width: auto;
+    height: 42px;
+    left: 220px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--plain-text);
+    }
+    .offer-img{
+    width: auto;
+    height: 40px;
+    left: 360px;
+    top: 0px;
+    bottom: 10px;
+    }
+    
+    .offer{
+    width: auto;
+    height: 42px;
+    left: 455px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--plain-text);
+    }
+    .line{
+    position: relative;
+    width: 1536px;
+    height: 0px;
+    left: 0px;
+    top: 148px;
+    border: 1px solid var(--constant-white);
+    opacity:30%;
+    }
+    
+    .explore-grid_explore{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    }
+
+

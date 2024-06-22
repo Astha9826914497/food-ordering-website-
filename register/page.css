@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='email'],
+input[type='username'],
+input[type='password'],
+input[type='text'] {
+    @apply block w-full my-2 rounded-xl mt-5 mb-5;
+    @apply  border p-2 border-gray-300 bg-gray-100 outline-pink-600;
+    border-radius:38px;
+    
+}
+
+input[type='email'],
+input[type='username'],
+input[type='password'],
+input[type='text'] ::active{
+    border: 1px solid #FF0072;
+
+}
+
+button{
+    @apply block w-full text-gray-700 font-semibold;
+    border-radius:38px;
+    @apply border border-gray-300 rounded-xl px-6 py-2;
+}
+
+button[type='submit'], .submit{
+    @apply border-0 bg-primary text-white;
+    border-radius:38px;
+    width:460px;
+    font-family: "Poppins", sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    background: linear-gradient(95.72deg, #FF0072 3.48%, #FF7F47 125.31%);
+}
+
+.register-background{
+    position:absolute;
+    z-index:-1;
+    left:0px;
+    right:0px;
+    top:10px;
+    width:auto;
+    height:auto;
+   
+}
+
+.section{
+position:absolute;
+left:900px;
+width:500px;
+}
+.chef{
+    /* 82653285_10300_1-10-Photoroom 2 */
+    
+    position: absolute;
+    width: 277px;
+    height: 277px;
+    left: 0px;
+    top: 454px;
+    
+    
+    }
+    
+    .text{
+    /* Elevate your dining experience, with every delivery */
+    
+    position: absolute;
+    width: 370px;
+    height: 232px;
+    left: 283px;
+    top: 479px;
+    
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 46px;
+    line-height: 55px;
+    
+    color: #FFFFFF;
+    
+    
+    }
+
+    .separator{
+        margin-left:20px;
+        margin-top:10px;
+        margin-bottom:10px;
+         } 
+
+         .register-with-google{
+            border-radius:38px;
+        }
+
+    

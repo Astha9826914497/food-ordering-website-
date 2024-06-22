@@ -1,0 +1,106 @@
+
+.about{
+    position: relative;
+    }
+    
+    .about-main-container{
+    background-color: var(--white-text);
+    
+    padding-bottom: 100px;
+    }
+    
+    .about-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    }
+    
+    .des-about-left{
+    margin-left: 50px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 30px;
+    }
+    
+    .image-about-right{
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    justify-content: left;
+    gap: 30px;
+    }
+    
+    .AboutUs{
+    position: relative;
+    width: 330px;
+    height: 65px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: left;
+    background-clip: text;
+    background: var(--main-heading);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    
+    .description_about{
+    position: relative;
+    width: 800px;
+    height: 378px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 100px;
+    font-size: 24px;
+    line-height: 200%;
+    color: var(--plain-text);
+    }
+    
+    .chef_img{
+    position: relative;
+    width: 450.07px;
+    height: 450.31px;
+    }
+    
+    .endless_love{
+    position: absolute;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    width: 320px;
+    height: 205px;
+    left: 1050px;
+    top: 440px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 189.5%;
+    }
+    
+    .trusted_support{
+    position: absolute;
+    width: 440px;
+    height: 114px;
+    left: 1090px;
+    top: 550px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 189.5%;
+    color: var(--plain-text);
+    }
+    
+    .about_background{
+    position: absolute;
+    width: 1536px;
+    height: 1000px;
+    left: 3px;
+    top: 2680px;
+    }
+    

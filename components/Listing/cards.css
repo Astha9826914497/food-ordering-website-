@@ -1,0 +1,150 @@
+.explore-grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-top:40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index:-1;
+    }
+        
+
+
+    .explore-card-cover{
+    width:280px;
+    border-radius:15px;
+    position:relative;
+    height: 300px;
+    box-shadow: 5px 5px 5px var(--constant-pink);
+    }
+    
+    .explore-card-image{
+    height:50%;
+    width:100%;
+    object-fit:cover;
+    border-radius:15px;
+    }
+    
+    .explore-card{
+    margin:12px 0px 24px 0px;
+    padding: 10px;
+    border-radius:15px;
+    width:130%;
+    }
+    
+    .delivery-time{
+    position:absolute;
+    right: 5px;
+    bottom:155px;
+    opacity:0.8;
+    background-color: var(--constant-white);
+    backdrop-filter: blur(4px);
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px;
+    border-radius:10px;
+    font-family: "Poppins", sans-serif;;
+    }
+    
+    .discount{
+    position: absolute;
+    width:80px;
+    left: 0px;
+    bottom: 160px;
+    background-color:var(--constant-pink);
+    color: var(--constant-white);
+    text-align: center;
+    text-wrap: wrap;
+    padding:5px;
+    border-radius: 0px 8px 8px 0px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    }
+    
+    .star{
+    color: var(--constant-white);
+    height: 15px;
+    margin-top:2px;
+    
+    }
+    
+    .res-row{
+    display:flex;
+    justify-content: space-between;
+    padding: 8px;
+    }
+    
+    .res-name{
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--constant-pink);
+    }
+    
+    .res-rating{
+    padding: 4px 4px 4px 4px;
+    font-size:13px;
+    font-weight: 600;
+    color: var(--constant-white);
+    font-family: "Poppins", sans-serif; 
+    background-color: var(--constant-white);
+    border-radius: 6px;
+    height:30px
+    }
+        
+    .res-cuisine{
+    max-width: 56%;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    }
+    
+    .res-cuisine-tag{
+    margin-right:4px;
+    color:var(--plain-text);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+    }
+    
+    .approx-price{
+    font-size: 14px;
+    color:var(--plain-text);
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+    }
+    
+    .explore-bottom{
+    display: flex;
+    align-items: center;  
+    max-width: 100%;
+    padding-left: 10px;
+    margin-top: 10px;
+    }
+    
+    .res-bottom-text{
+    font-size: 10px;
+    color:var(--plain-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 8px;
+    
+    }
+    .card-seperator{
+    height:1px;
+    margin: 10px 0px 5px;
+    background-color: var(--plain-text);
+    opacity: 0.2;
+    }
+    
+    
+    

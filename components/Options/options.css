@@ -1,0 +1,70 @@
+.options{
+    position: relative;
+    background-color: var(--white-text);
+    }
+    .heading{
+    margin-top: -20px;
+    margin-left: 60px;
+    display: flex;
+    justify-content:left;
+    gap: 20px;
+    }
+    .blacktext{
+    position: relative;
+    height: 98px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 98px;
+    text-transform: none;
+    color: var(--plain-text);
+    }
+    
+    .gradienttext{
+    position: relative;
+    height: 98px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 98px;
+    text-transform: capitalize;
+    background: var(--main-heading);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+    .row1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+    z-index: 9999;
+    }
+    .row2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+    z-index: 9999; 
+    }
+    .image{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    }
+    
+    .image:hover{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid var(--constant-orange);
+    }
+    
+    
+    

@@ -1,0 +1,284 @@
+body{
+    overflow-x:hidden;
+}
+.footer-main-frame{
+    position:relative;
+}
+
+.s-div7{
+    justify-content: center;
+    width: 1536px;
+    height: 80px;
+    background: var(--footer-bgwhite);
+    }
+    
+    .logo1{
+    position: absolute;
+    width: 179px;
+    height: 79px;
+    left: calc(50% - 179px/2 - 4.5px);
+    }
+    
+    .bg-div3{
+    width: 1920px;
+    height: 350px;
+    background: linear-gradient(90deg, #FF0072 0%, #FF7F47 100%);
+    }
+    
+    .s-div8{
+    overflow-x:hidden;
+    width: 1536px;
+    height: 58px;
+    background: var(--footer-bgwhite);
+    padding:5px 5px 5px 5px;
+    }
+    
+    .foodstergo{
+    margin-top:100px;
+    position: absolute;
+    width: 203.98px;
+    height: 48px;
+    left: 62.02px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    }
+    
+    .footer_des{
+    margin-top:170px;
+    position: absolute;
+    width: 470.93px;
+    height: 81px;
+    left: 62px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    
+    .com{
+    top:350px;
+    position: absolute;
+    left: 4%;
+    right: 88.84%;
+    bottom: 3.92%;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    }
+    
+    .aboutus{
+    margin-top:100px;
+    position: absolute;
+    width: 117.28px;
+    height: 43.52px;
+    left: 646.45px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    }
+    
+    .aboutus1{
+    position: absolute;
+    margin-top:170px;
+    width: 87.66px;
+    height: 31.65px;
+    left: 646.45px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    
+    .serviceus{
+        margin-top:200px;
+    position: absolute;
+    width: 100.7px;
+    height: 31.65px;
+    left: 646.45px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    .contact{
+        margin-top:230px;
+    position: absolute;
+    width: 77px;
+    height: 31.65px;
+    left: 646.45px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    
+    .company{
+        margin-top:100px;
+    position: absolute;
+    width: 125.57px;
+    height: 43.52px;
+    left: 810.73px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    }
+    
+    .partnership{
+    position: absolute;
+    margin-top:170px;
+    width: 113.73px;
+    height: 31.65px;
+    left: 810.73px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    
+    .termofuse{
+    position: absolute;
+    margin-top:200px;
+    width: 124.39px;
+    height: 31.65px;
+    left: 810.73px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    
+    .privacy{
+    position: absolute;
+    margin-top:230px;
+    width: 72.26px;
+    height: 31.65px;
+    left: 810.73px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    
+    .sitemap{
+    position: absolute;
+    margin-top:260px;
+    width: 81.74px;
+    height: 31.65px;
+    left: 810.73px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    
+    .getintouch{
+        margin-top:100px;
+    position: absolute;
+    width: auto;
+    height: 43.52px;
+    left: 1047.66px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 36px;
+    color: #FFFFFF;
+    }
+    
+    .getintouch_des{
+        margin-top:170px;
+    position: absolute;
+    width: auto;
+    height: 84px;
+    left: 1048px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    }
+    
+    .footer-contact{
+    position: absolute;
+    margin-top:200px;
+    width: 243px;
+    height: 45px;
+    left: 1048px;
+    background: #404040;
+    opacity: 0.1;
+    border-radius: 38px;
+    }
+    
+    .footer_contact{
+        margin-top:260px;
+    position: absolute;
+    width: 280.97px;
+    height: 40.94px;
+    left: 1048px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    background: #ffffff;
+    border-radius: 5px;
+    outline:none;
+    padding:20px;
+    }
+    .send{
+        margin-top:260px;
+    position: absolute;
+    width: 160.99px;
+    height: 40.94px;
+    left: 1340.09px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color:#FF0B6E;
+    }
+    
+    .copywrite{
+    position: absolute;
+    margin-top:20px;
+    width: 221px;
+    height: 18px;
+    left: 665px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    background: linear-gradient(90deg, #FF0B6E 0%, #FF5854 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    } 
